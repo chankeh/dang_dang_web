@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<servlet>
+		<servlet-name>BookList</servlet-name>
+		<servlet-class>com.tarena.web.BookListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Image</servlet-name>
+		<servlet-class>com.tarena.web.ImageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CheckCode</servlet-name>
+		<servlet-class>com.tarena.web.CheckCodeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CheckEmail</servlet-name>
+		<servlet-class>com.tarena.web.CheckEmailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.tarena.web.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.tarena.web.LoginServerlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>LogoutServerlet</servlet-name>
+    <servlet-class>com.tarena.web.LogoutServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BuyServerlet</servlet-name>
+    <servlet-class>com.tarena.web.BuyServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CartServerlet</servlet-name>
+    <servlet-class>com.tarena.web.CartServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServerlet</servlet-name>
+    <servlet-class>com.tarena.web.UpdateServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServerlet</servlet-name>
+    <servlet-class>com.tarena.web.DeleteServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServerlet</servlet-name>
+    <servlet-class>com.tarena.web.OrderServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitServerlet</servlet-name>
+    <servlet-class>com.tarena.web.SubmitServerlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddressServerlet</servlet-name>
+    <servlet-class>com.tarena.web.AddressServerlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+	
+	<servlet-mapping>
+		<servlet-name>BookList</servlet-name>
+		<url-pattern>/booklist</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Image</servlet-name>
+		<url-pattern>/image</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckCode</servlet-name>
+		<url-pattern>/checkcode</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckEmail</servlet-name>
+		<url-pattern>/checkemail</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServerlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServerlet</servlet-name>
+    <url-pattern>/buy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartServerlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServerlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServerlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServerlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitServerlet</servlet-name>
+    <url-pattern>/submit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServerlet</servlet-name>
+    <url-pattern>/address</url-pattern>
+  </servlet-mapping>
+</web-app>
